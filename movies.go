@@ -63,6 +63,7 @@ type MovieShort struct {
 	BackdropPath  string `json:"backdrop_path"`
 	ID            int
 	OriginalTitle string `json:"original_title"`
+	Overview      string `json:"overview"`
 	Popularity    float32
 	PosterPath    string `json:"poster_path"`
 	ReleaseDate   string `json:"release_date"`
